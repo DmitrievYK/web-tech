@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: url('../img/black-background-with-fabric-texture2.jpg');
+    background-size: contain;
+    font: 120% serif;
+}
+.text-block {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: rgb(136, 68, 8);
+    background: url('../img/lines-background-orange.jpg');
+    background-size: contain;
+    box-shadow: 0 0 5px 2px gray;
+    border-radius: 30px;
+}
+.title-message {
+    font-size: 50px;
+    color: rgb(5, 5, 5);
+    text-shadow: 1px 1px 1px rgb(252, 250, 250);
+    text-align: center;
+}
+.mini-headers {
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    text-shadow: 0 0 2px #070707;
+    text-align: center;
+
+}
+.image-block {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.Img {
+    width: 800px;
+}
+.gallery{
+    height: 1500px;
+    width: 800px;
+}
+#largeImg {
+    width: 800px;
+    height: auto;
+    padding: 5px;
+  }
+#thumbs a {
+    border: solid 1px #ccc;
+    width: 145px;
+    height: 145px;
+    padding: 3px;
+    background-color: black;
+    float: left;
+  }
+#thumbs a:hover {
+    border-color: #FF9900;
+  }
+  
+#thumbs li {
+    list-style: none;
+  }
+  
+  #thumbs {
+    margin: 5px;
+    padding: 5px;
+  }
